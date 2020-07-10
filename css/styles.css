@@ -1,11 +1,47 @@
-.important{
-    color: red;
-}
-
-.unimportant{
-    color: blue;
-}
-
-.cat-climate{
+.side bar{
+    width: 30%;
+    float: right;
     background-color: yellowgreen;
+}
+
+.column{
+    width: 350px;
+    float: left;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.test-box{
+    border: 2px solid red;
+}
+
+.ul{
+    background-color: coral;
+}
+
+.ol{
+    background-color: steelblue;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+.column{
+    width: 220px;
+    float: left;
+    padding: 15px
+
+}
+
+p{
+    color: red;
+    text-align: center;
 }
