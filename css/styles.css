@@ -1,12 +1,7 @@
-h1{
+.important{
+    color: red;
+}
+
+.unimportant{
     color: blue;
-    text-align: center;
-}
-
-p{
-    font-family: sans-serif;
-}
-
-ul{
-    line-height: 40px;
 }
